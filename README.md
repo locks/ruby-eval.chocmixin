@@ -43,7 +43,7 @@ And press the magic shortcut, `cmd-opt-e`
 
 ## Evaluate stdout
 
-Ruby-eval will also print out anything sent to stdout
+In addition to annotate your code, you can also emit stdout with `cmd-opt-shift-e`
 
     [1,2,3,4].each { |i| puts i }
     # >> 1
@@ -54,3 +54,7 @@ Ruby-eval will also print out anything sent to stdout
 ## Credits
 
 * rcodetools/xmpfilter authors
+* Chocolat.app authors, alex gordon and jean nicolas
+* locks (mixin author)
+* kyrylo (first #pry person to visit this page)
+* nicolau (my cat, the never-silent king of the jungle)
