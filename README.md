@@ -1,5 +1,9 @@
 # ruby-eval.chocmixin
 
+Leveraging `rcodetools` to bring annotated ruby code to your favourite text editor
+
+## Setup
+
 To run this mixin successfully you need to install the `rcodetools` gem, which contains `xmpfilter`. In your terminal, run the following command:
 
     $ gem install rcodetools
