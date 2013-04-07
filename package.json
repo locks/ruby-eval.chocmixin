@@ -1,0 +1,11 @@
+{ "name": "ruby-eval.mixin"
+, "version": "0.1.0"
+, "description": "Evals the current line"
+, "keywords": ["ruby", "eval"]
+, "author": "Ricardo Mendes <rokusu@gmail.com>"
+, "homepage": "http://locks.io"
+, "repository": { "type": "git"
+                , "url": "https://github.com/locks/ruby-eval.chocmixin"
+                }
+, "license": "MIT"
+}
