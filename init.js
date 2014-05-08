@@ -22,10 +22,10 @@ Hooks.addMenuItem("Actions/Ruby/Evaluate/Annotate", "cmd-opt-e", function () {
       Recipe.run(function (recipe) {
         var rng = new Range(recipe.length);
         recipe.replaceTextInRange(rng, stdout);
-      })
-    })
-  })
-})
+      });
+    });
+  });
+});
 
 Hooks.addMenuItem("Actions/Ruby/Evaluate/Annotate and emit stdout", "cmd-opt-shift-e", function () {
   var current = Document.current();
