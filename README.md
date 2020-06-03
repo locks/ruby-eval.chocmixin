@@ -1,9 +1,5 @@
 # ruby-eval.chocmixin
 
-Leveraging `rcodetools` to bring annotated ruby code to your favourite text editor
-
-## Setup
-
 To run this mixin successfully you need to install the `rcodetools` gem, which contains `xmpfilter`. In your terminal, run the following command:
 
     $ gem install rcodetools
@@ -20,7 +16,7 @@ First we have
         3 + 4
       end
     end
-    
+
     Mixin.new       
     Mixin.new.mixout
 
@@ -37,7 +33,7 @@ And press the magic shortcut, `cmd-opt-e`
         3 + 4
       end
     end
-    
+
     Mixin.new        # => #<Mixin:0x007f93fc920918>
     Mixin.new.mixout # => 7
 
@@ -54,3 +50,6 @@ Ruby-eval will also print out anything sent to stdout
 ## Credits
 
 * rcodetools/xmpfilter authors
+* Chocolat.app authors, alex gordon and jean nicolas
+* locks (mixin author)
+* kyrylo (first #pry person to visit this page)
